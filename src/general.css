@@ -1,0 +1,36 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  box-sizing: inherit;
+  margin: 0px;
+  padding: 0;
+  background-size: cover;scroll-behavior: smooth;
+}
+:root {
+  --off-white-color: #eeecea;
+  --font-color: #574c46;
+  --orange-color: #FA8F50;
+  --yellow-color: #F5AE24;
+  --footer-color: #dfd8d4;
+}
+button {
+  border: none;
+  padding: 0;
+  font-size: 1rem;
+  cursor: pointer;
+}
+h1, p {
+  margin: 0;
+  color: var(--font-color);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 0;
+  padding: 0;
+}

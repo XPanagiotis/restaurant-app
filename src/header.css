@@ -1,0 +1,62 @@
+.header {
+  background-color: var(--orange-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  flex-shrink: 0;
+  padding: .5rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 5;
+}
+.logo {
+  width: 90px;
+  height: auto;
+  border-radius: 15px;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 3rem;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+.link {
+  background-color: inherit;
+  color: var(--off-white-color);
+  position: relative;
+  transition: text-shadow 300ms ease-in-out;
+}
+.link:hover {
+  text-shadow: 2px 2px  8px  #fff;
+  color: #fff;
+}
+.link::after {
+  content: '';
+  width: 100%;
+  background-color: #fff;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: transform 300ms ease-in-out;
+  transform: scaleX(0);
+  pointer-events: none;
+}
+.link:hover::after {
+  transform: scaleX(1);
+}
+.reservation {
+  padding: .8rem;
+  font-weight: 700;
+  color: var(--orange-color);
+  background-color: white;
+  border-radius: 12px;
+}
+.reservation:hover {
+  opacity: .9;
+}

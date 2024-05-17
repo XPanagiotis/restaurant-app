@@ -1,0 +1,126 @@
+.text-section {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  margin: auto;
+  max-width: 60%;
+}
+.text-section {
+  margin-top: 15%;
+  margin-bottom: 18%;
+}
+.text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.text > h1 {
+  font-size: 30px;
+  margin-bottom: 5%;
+
+}
+.text > p {
+  font-size: 18px;
+  padding-bottom: 5%;
+}
+.text > button {
+  background-color: var(--orange-color);
+  color: #fff;
+  width: min-content;
+  align-self: center;
+}
+.text-section > img {
+  width: 100%;
+  max-width: 50%;
+  min-width: 100px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.home-background-image {
+  background-image: url(../src/assets/kitchen-image.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+}
+
+.image-slider {
+  position: relative;
+  gap: 3%;
+  width: 45%;
+  margin: 15% auto 8%;
+}
+.images {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1%;
+}
+.image-slider > ul > li {
+  border-radius: 18px;
+}
+.image-slider img {
+  width: 100%;  
+  min-width: 100px;
+  height: 100%;
+  border-radius: 15px;
+  background-position: center;
+  opacity: 1;
+}
+.image-slider .next,
+.image-slider .prev {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 35px;
+  height: 35px;
+  padding-top: 8px;
+  text-align: center;
+  border-radius: 100%;
+  background-color: #8d8a86;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  user-select: none;
+  transition: opacity 0.3s ease-in-out;
+}
+.next {
+  right: -50px;
+}
+.prev {
+  left: -50px;
+}
+.next:hover, 
+.next:focus,
+.prev:hover,
+.prev:focus{
+  opacity: 0.7;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: .5s;
+}
+
+@keyframes fade {
+  from {opacity: .7}
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 1024px){
+  .text-section { 
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0;
+    max-width: 100%;
+   }
+   .text {
+    width: 75%;
+    margin-bottom: 2%;
+   }
+   .text {
+    text-align: center;
+   }
+}
