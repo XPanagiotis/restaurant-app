@@ -9,54 +9,70 @@
   <header class="header">
     <img src="../src/assets/restaurant-logo.png" class="logo">
     <nav>
-      <button class="link">About</button>
-      <button class="link">Menu</button>
-      <button class="link">Contact</button>
+      <button class="link" id="home-button" data-button="home">About</button>
+      <button class="link" id="menu-button" data-button="menu">Menu</button>
+      <button class="link" id="contact-button" data-button="contact">Contact</button>
     </nav>
     <button class="reservation">Reservation</button>
   </header>
 
-  <section class="text-section">
-    <div class="text">
-      <h1>Some Title</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-      <button class="reservation">Reservation</button>
+  <main>
+    <div id="home-page" data-page="home">
+      <!--Home Page main content-->
     </div>
-    <img src="../src/assets/home-image.jpg">
-  </section>
 
-  <div class="home-background-image"></div>
+    <div id="menu-page" data-page="menu">
+      <h1>Our Menu</h1>
 
-  <section class="text-section second">
-    <img src="../src/assets/restaurant-image.jpg">
-    <div class="text">
-      <h1>Some Title</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+      <section class="food-category-menu">
+        <h2>Food Categoty</h2>
+        <div class="food-card">
+          <img src="../src/assets/menu-image-1.jpg">
+          <div class="food-details">
+            <h3>Food Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>$12.39</p>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <img src="../src/assets/menu-image-1.jpg">
+          <div class="food-details">
+            <h3>Food Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>$12.39</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="food-category-menu">
+        <h2>Food Categoty</h2>
+        <div class="food-card">
+          <img src="../src/assets/menu-image-1.jpg">
+          <div class="food-details">
+            <h3>Food Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>$12.39</p>
+          </div>
+        </div>
+
+        <div class="food-card">
+          <img src="../src/assets/menu-image-1.jpg">
+          <div class="food-details">
+            <h3>Food Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>$12.39</p>
+          </div>
+        </div>
+      </section>
+      
+
     </div>
-  </section>
-
-  <section class="image-slider">
-    <div class="prev" id="prev">&#60;</div>
-    <ul class="images">
-      <li class="slide fade"><img src="../src/assets/food-image-1.jpg"></li>
-      <li class="slide fade"><img src="../src/assets/food-image-2.jpg"></li>
-      <li class="slide fade"><img src="../src/assets/food-image-3.jpg"></li>
-      <li class="slide fade"><img src="../src/assets/food-image-4.jpg"></li>
-      <li class="slide fade"><img src="../src/assets/food-image-5.jpg"></li>
-      <li class="slide fade"><img src="../src/assets/food-image-6.jpg"></li>
-    </ul>
-    <div class="next" id="next">&#62;</div>
-  </section>
+  </main>
 
   <footer>
     <div>
@@ -76,5 +92,6 @@
     </div>
     <p>&#169 Restaurant. All rights reserved.</p>
   </footer>
+  
 </body>
 </html>

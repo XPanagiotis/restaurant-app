@@ -1,23 +1,22 @@
 import "./general.css";
 import "./header.css";
 import "./footer.css";
-import "./home.css";''
-import Icon from "./assets/restaurant-logo.png";
+import "./home.css";
+import "./menu.css";
+import { pageController } from "./pageController.js";
+import { renderHomePage } from "./view/render-home-page.js";
+import { renderMenuPage } from "./view/render-menu-page.js"; 
 
-console.log('hello world');
 
-document.getElementById('next').addEventListener('click', () => showSlide(slideIndex += 1));
-document.getElementById('prev').addEventListener('click', () => showSlide(slideIndex += 1));
+//cashe DOM
+const homeBtn = document.getElementById('home-button');
+const menuBtn = document.getElementById('menu-button');
+const contact = document.getElementById('contact-Btn');
 
-let slideIndex = 1;
-showSlide(slideIndex);
+//bind events
+homeBtn.addEventListener('click', pageController);
+menuBtn.addEventListener('click', pageController);
 
-function showSlide(n) {
-  let slides = document.querySelectorAll('.slide');
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for(let i = 0; i < slides.length; i++) {
-    slides[i].style.display = 'none';
-  }
-  slides[slideIndex - 1].style.display = 'block';
-}
+//We render the pages and we display them when we need them through the pageController module
+renderHomePage();
+renderMenuPage();

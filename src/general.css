@@ -4,14 +4,15 @@
 }
 body {
   box-sizing: inherit;
-  margin: 0px;
+  margin: 0;
   padding: 0;
-  background-size: cover;scroll-behavior: smooth;
+  padding-top: 100px;
+  background-size: cover;
 }
 :root {
   --off-white-color: #eeecea;
   --font-color: #574c46;
-  --orange-color: #FA8F50;
+  --orange-color: #F25A0D;
   --yellow-color: #F5AE24;
   --footer-color: #dfd8d4;
 }
@@ -21,7 +22,7 @@ button {
   font-size: 1rem;
   cursor: pointer;
 }
-h1, p {
+h1, h2, h3, p {
   margin: 0;
   color: var(--font-color);
 }
@@ -34,3 +35,4 @@ li {
   margin: 0;
   padding: 0;
 }
+
