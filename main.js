@@ -10,13 +10,23 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/contact.css":
+/*!***************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/contact.css ***!
+  \***************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../src/assets/background-image.jpg */ \"./src/assets/background-image.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `#contact-page {\r\n  display: none;\r\n  padding-top: 10%;\r\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___});\r\n  height: 100vh;\r\n  background-repeat: no-repeat;\r\n  background-attachment: fixed;\r\n  background-size: cover;\r\n  background-position: center;\r\n}\r\n.contact-section {\r\n  display: flex;\r\n  align-items: center;\r\n  width: fit-content;\r\n  gap: 5%;\r\n  margin: auto;\r\n  margin-bottom: 18%;\r\n  max-width: 60%;\r\n}\r\n.contact-section > img {\r\n  max-width: 40%;\r\n  min-width: 100px;\r\n  height: auto;\r\n  border-radius: 15px;\r\n  box-shadow: 5px 5px 12px var(--font-color);\r\n}\r\n.contact-details-wrapper {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n  gap: 5%;\r\n  padding: 8% 2%;\r\n  text-align: center;\r\n  box-shadow: 5px 5px 12px var(--font-color);\r\n  background-image: linear-gradient(to right bottom, #fff, #fce6d1);\r\n}\r\n.contact-details-wrapper > h1 {\r\n  font-size: 40px;\r\n}\r\n.contact-details {\r\n  line-height: 35px;\r\n}\r\n.social-wrapper {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  flex-wrap: wrap;\r\n}\r\n.social-wrapper > img {\r\n  height: 50px;\r\n}\r\n\r\n@media only screen and (max-width: 1024px){\r\n  .contact-section { \r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: center;\r\n    min-width: 80%;\r\n    gap: 1.5rem;\r\n    margin: 5% auto;\r\n   }\r\n   .contact-details-wrapper {\r\n    width: 100%;\r\n   }\r\n   .contact-section > img {\r\n    min-width: 100%;\r\n   }\r\n\r\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-app/./src/contact.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/footer.css":
 /*!**************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/footer.css ***!
   \**************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `footer {\r\n  width: 100%;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  gap: .5rem;\r\n  background-color: #f5f2ed;\r\n  padding: 1rem 5%;\r\n  font-size: 0.7rem;\r\n}\r\nfooter > div {\r\n  width: 100%;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n}\r\n.contact-info {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  gap: 2rem;\r\n  color: var(--font-color);\r\n}\r\nfooter li {\r\n  cursor: pointer;\r\n}\r\nfooter img {\r\n  height: 30px;\r\n  cursor: pointer;\r\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-app/./src/footer.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `footer {\r\n  width: 100%;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  gap: .5rem;\r\n  background-color: #f5f2ed;\r\n  padding: 1rem 5%;\r\n  font-size: 0.7rem;\r\n}\r\nfooter > div {\r\n  width: 100%;\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  align-items: center;\r\n  justify-content: center;\r\n  gap: 1rem 3rem;\r\n}\r\n.contact-info {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  flex-wrap: wrap;\r\n  gap: 0.5rem 2rem;\r\n  color: var(--font-color);\r\n}\r\nfooter li {\r\n  cursor: pointer;\r\n}\r\nfooter img {\r\n  height: 30px;\r\n  cursor: pointer;\r\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-app/./src/footer.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -87,6 +97,16 @@ eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    opt
 /***/ ((module) => {
 
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://restaurant-app/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+/***/ }),
+
+/***/ "./src/contact.css":
+/*!*************************!*\
+  !*** ./src/contact.css ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleDomAPI.js */ \"./node_modules/style-loader/dist/runtime/styleDomAPI.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertBySelector.js */ \"./node_modules/style-loader/dist/runtime/insertBySelector.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ \"./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertStyleElement.js */ \"./node_modules/style-loader/dist/runtime/insertStyleElement.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleTagTransform.js */ \"./node_modules/style-loader/dist/runtime/styleTagTransform.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_contact_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../node_modules/css-loader/dist/cjs.js!./contact.css */ \"./node_modules/css-loader/dist/cjs.js!./src/contact.css\");\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());\noptions.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());\noptions.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, \"head\");\noptions.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());\noptions.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_contact_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"], options);\n\n\n\n\n       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_contact_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"] && _node_modules_css_loader_dist_cjs_js_contact_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals ? _node_modules_css_loader_dist_cjs_js_contact_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals : undefined);\n\n\n//# sourceURL=webpack://restaurant-app/./src/contact.css?");
 
 /***/ }),
 
@@ -236,7 +256,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _general_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./general.css */ \"./src/general.css\");\n/* harmony import */ var _header_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header.css */ \"./src/header.css\");\n/* harmony import */ var _footer_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer.css */ \"./src/footer.css\");\n/* harmony import */ var _home_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./home.css */ \"./src/home.css\");\n/* harmony import */ var _menu_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu.css */ \"./src/menu.css\");\n/* harmony import */ var _pageController_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pageController.js */ \"./src/pageController.js\");\n/* harmony import */ var _view_render_home_page_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./view/render-home-page.js */ \"./src/view/render-home-page.js\");\n/* harmony import */ var _view_render_menu_page_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./view/render-menu-page.js */ \"./src/view/render-menu-page.js\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n \r\n\r\n\r\n//cashe DOM\r\nconst homeBtn = document.getElementById('home-button');\r\nconst menuBtn = document.getElementById('menu-button');\r\nconst contact = document.getElementById('contact-Btn');\r\n\r\n//bind events\r\nhomeBtn.addEventListener('click', _pageController_js__WEBPACK_IMPORTED_MODULE_5__.pageController);\r\nmenuBtn.addEventListener('click', _pageController_js__WEBPACK_IMPORTED_MODULE_5__.pageController);\r\n\r\n//We render the pages and we display them when we need them through the pageController module\r\n(0,_view_render_home_page_js__WEBPACK_IMPORTED_MODULE_6__.renderHomePage)();\r\n(0,_view_render_menu_page_js__WEBPACK_IMPORTED_MODULE_7__.renderMenuPage)();\r\n\n\n//# sourceURL=webpack://restaurant-app/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _general_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./general.css */ \"./src/general.css\");\n/* harmony import */ var _header_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header.css */ \"./src/header.css\");\n/* harmony import */ var _footer_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer.css */ \"./src/footer.css\");\n/* harmony import */ var _home_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./home.css */ \"./src/home.css\");\n/* harmony import */ var _menu_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu.css */ \"./src/menu.css\");\n/* harmony import */ var _contact_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./contact.css */ \"./src/contact.css\");\n/* harmony import */ var _pageController_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pageController.js */ \"./src/pageController.js\");\n/* harmony import */ var _view_render_home_page_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./view/render-home-page.js */ \"./src/view/render-home-page.js\");\n/* harmony import */ var _view_render_menu_page_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./view/render-menu-page.js */ \"./src/view/render-menu-page.js\");\n/* harmony import */ var _view_render_contact_page_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./view/render-contact-page.js */ \"./src/view/render-contact-page.js\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n \r\n\r\n\r\n//cashe DOM\r\nconst homeBtn = document.getElementById('home-button');\r\nconst menuBtn = document.getElementById('menu-button');\r\nconst contact = document.getElementById('contact-button');\r\n\r\n//bind events\r\nhomeBtn.addEventListener('click', _pageController_js__WEBPACK_IMPORTED_MODULE_6__.pageController);\r\nmenuBtn.addEventListener('click', _pageController_js__WEBPACK_IMPORTED_MODULE_6__.pageController);\r\ncontact.addEventListener('click', _pageController_js__WEBPACK_IMPORTED_MODULE_6__.pageController);\r\n\r\n//We render the pages and we display them when we need them through the pageController module\r\n(0,_view_render_home_page_js__WEBPACK_IMPORTED_MODULE_7__.renderHomePage)();\r\n(0,_view_render_menu_page_js__WEBPACK_IMPORTED_MODULE_8__.renderMenuPage)();\r\n(0,_view_render_contact_page_js__WEBPACK_IMPORTED_MODULE_9__.renderContactPage)();\r\n\n\n//# sourceURL=webpack://restaurant-app/./src/index.js?");
 
 /***/ }),
 
@@ -260,6 +280,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/view/render-contact-page.js":
+/*!*****************************************!*\
+  !*** ./src/view/render-contact-page.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   renderContactPage: () => (/* binding */ renderContactPage)\n/* harmony export */ });\n/* harmony import */ var _domHelperFunctions_createElement__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../domHelperFunctions/createElement */ \"./src/domHelperFunctions/createElement.js\");\n/* harmony import */ var _domHelperFunctions_createImage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../domHelperFunctions/createImage */ \"./src/domHelperFunctions/createImage.js\");\n/* harmony import */ var _assets_map_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/map.png */ \"./src/assets/map.png\");\n/* harmony import */ var _assets_instagram_icon_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/instagram-icon.svg */ \"./src/assets/instagram-icon.svg\");\n/* harmony import */ var _assets_facebook_icon_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/facebook-icon.svg */ \"./src/assets/facebook-icon.svg\");\n/* harmony import */ var _assets_tik_tok_icon_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../assets/tik-tok-icon.svg */ \"./src/assets/tik-tok-icon.svg\");\n\r\n\r\n\r\n//Images\r\n\r\n\r\n\r\n\r\n \r\nconst renderContactPage = function() {\r\n  const contactPage = document.getElementById('contact-page');\r\n\r\n  const contactSection = (0,_domHelperFunctions_createElement__WEBPACK_IMPORTED_MODULE_0__.createDOMElement)('section', 'contact-section');\r\n  contactSection.appendChild((0,_domHelperFunctions_createImage__WEBPACK_IMPORTED_MODULE_1__.createImage)(_assets_map_png__WEBPACK_IMPORTED_MODULE_2__));\r\n\r\n  const contactDetailsWrapper = (0,_domHelperFunctions_createElement__WEBPACK_IMPORTED_MODULE_0__.createDOMElement)('div', 'contact-details-wrapper');\r\n  contactDetailsWrapper.appendChild((0,_domHelperFunctions_createElement__WEBPACK_IMPORTED_MODULE_0__.createDOMElement)('h1', '',  'Where you can find us?'));\r\n\r\n  const contactDetails = (0,_domHelperFunctions_createElement__WEBPACK_IMPORTED_MODULE_0__.createDOMElement)('div', 'contact-details');\r\n  contactDetails.appendChild((0,_domHelperFunctions_createElement__WEBPACK_IMPORTED_MODULE_0__.createDOMElement)('p', '', 'Adress: Street 1, Athens'));\r\n  contactDetails.appendChild((0,_domHelperFunctions_createElement__WEBPACK_IMPORTED_MODULE_0__.createDOMElement)('p', '', 'Kitchen hours: 11:30 - 23:30'));\r\n  contactDetails.appendChild((0,_domHelperFunctions_createElement__WEBPACK_IMPORTED_MODULE_0__.createDOMElement)('p', '', 'Phone: +30 210 123 4567'));\r\n  contactDetails.appendChild((0,_domHelperFunctions_createElement__WEBPACK_IMPORTED_MODULE_0__.createDOMElement)('p', '', 'Email: example@restaurant.com'));\r\n\r\n  contactDetailsWrapper.appendChild(contactDetails);\r\n\r\n  const socialWrapper = (0,_domHelperFunctions_createElement__WEBPACK_IMPORTED_MODULE_0__.createDOMElement)('div', 'social-wrapper');\r\n  socialWrapper.appendChild((0,_domHelperFunctions_createImage__WEBPACK_IMPORTED_MODULE_1__.createImage)(_assets_instagram_icon_svg__WEBPACK_IMPORTED_MODULE_3__));\r\n  socialWrapper.appendChild((0,_domHelperFunctions_createImage__WEBPACK_IMPORTED_MODULE_1__.createImage)(_assets_facebook_icon_svg__WEBPACK_IMPORTED_MODULE_4__));\r\n  socialWrapper.appendChild((0,_domHelperFunctions_createImage__WEBPACK_IMPORTED_MODULE_1__.createImage)(_assets_tik_tok_icon_svg__WEBPACK_IMPORTED_MODULE_5__));\r\n\r\n  contactDetailsWrapper.appendChild(socialWrapper);\r\n  contactSection.appendChild(contactDetailsWrapper);\r\n  contactPage.appendChild(contactSection);\r\n}\n\n//# sourceURL=webpack://restaurant-app/./src/view/render-contact-page.js?");
+
+/***/ }),
+
 /***/ "./src/view/render-home-page.js":
 /*!**************************************!*\
   !*** ./src/view/render-home-page.js ***!
@@ -276,7 +306,27 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   renderMenuPage: () => (/* binding */ renderMenuPage)\n/* harmony export */ });\nconst renderMenuPage = function (pageToShow) {\r\n  const menuPage = document.getElementById('menu-page');\r\n}\n\n//# sourceURL=webpack://restaurant-app/./src/view/render-menu-page.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   renderMenuPage: () => (/* binding */ renderMenuPage)\n/* harmony export */ });\n/* harmony import */ var _domHelperFunctions_createElement_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../domHelperFunctions/createElement.js */ \"./src/domHelperFunctions/createElement.js\");\n/* harmony import */ var _domHelperFunctions_createImage_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../domHelperFunctions/createImage.js */ \"./src/domHelperFunctions/createImage.js\");\n/* harmony import */ var _paragraphContent_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../paragraphContent.js */ \"./src/paragraphContent.js\");\n/* harmony import */ var _assets_menu_image_1_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/menu-image-1.jpg */ \"./src/assets/menu-image-1.jpg\");\n\r\n\r\n\r\n\r\n//Images\r\n\r\n\r\nconst renderMenuPage = function () {\r\n  const menuPage = document.getElementById('menu-page');\r\n\r\n  menuPage.appendChild((0,_domHelperFunctions_createElement_js__WEBPACK_IMPORTED_MODULE_0__.createDOMElement)('h1', '', 'Our Menu'));\r\n\r\n  const foodCategoty = (0,_domHelperFunctions_createElement_js__WEBPACK_IMPORTED_MODULE_0__.createDOMElement)('section', 'food-category-menu');\r\n  foodCategoty.appendChild((0,_domHelperFunctions_createElement_js__WEBPACK_IMPORTED_MODULE_0__.createDOMElement)('h2','', 'Food Category'));\r\n\r\n  const foodCard = (0,_domHelperFunctions_createElement_js__WEBPACK_IMPORTED_MODULE_0__.createDOMElement)('div', 'food-card');\r\n  foodCard.appendChild((0,_domHelperFunctions_createImage_js__WEBPACK_IMPORTED_MODULE_1__.createImage)(_assets_menu_image_1_jpg__WEBPACK_IMPORTED_MODULE_3__));\r\n\r\n  const foodDetails = (0,_domHelperFunctions_createElement_js__WEBPACK_IMPORTED_MODULE_0__.createDOMElement)('div', 'food-details');\r\n  foodDetails.appendChild((0,_domHelperFunctions_createElement_js__WEBPACK_IMPORTED_MODULE_0__.createDOMElement)('h3', '', 'Food Title'));\r\n  foodDetails.appendChild((0,_domHelperFunctions_createElement_js__WEBPACK_IMPORTED_MODULE_0__.createDOMElement)('p', '', _paragraphContent_js__WEBPACK_IMPORTED_MODULE_2__.paragraphContent));\r\n  foodDetails.appendChild((0,_domHelperFunctions_createElement_js__WEBPACK_IMPORTED_MODULE_0__.createDOMElement)('p', '', '$12.39'));\r\n\r\n  foodCard.appendChild(foodDetails);\r\n  foodCategoty.appendChild(foodCard);\r\n  menuPage.appendChild(foodCategoty);\r\n}\n\n//# sourceURL=webpack://restaurant-app/./src/view/render-menu-page.js?");
+
+/***/ }),
+
+/***/ "./src/assets/background-image.jpg":
+/*!*****************************************!*\
+  !*** ./src/assets/background-image.jpg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"1447d494570f2cb8c43c.jpg\";\n\n//# sourceURL=webpack://restaurant-app/./src/assets/background-image.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/facebook-icon.svg":
+/*!**************************************!*\
+  !*** ./src/assets/facebook-icon.svg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"f0391d69645c73230172.svg\";\n\n//# sourceURL=webpack://restaurant-app/./src/assets/facebook-icon.svg?");
 
 /***/ }),
 
@@ -350,6 +400,16 @@ eval("module.exports = __webpack_require__.p + \"e9424774e29f975c8c15.jpg\";\n\n
 
 /***/ }),
 
+/***/ "./src/assets/instagram-icon.svg":
+/*!***************************************!*\
+  !*** ./src/assets/instagram-icon.svg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"22bda4c250235f5d99c5.svg\";\n\n//# sourceURL=webpack://restaurant-app/./src/assets/instagram-icon.svg?");
+
+/***/ }),
+
 /***/ "./src/assets/kitchen-image.jpg":
 /*!**************************************!*\
   !*** ./src/assets/kitchen-image.jpg ***!
@@ -360,6 +420,26 @@ eval("module.exports = __webpack_require__.p + \"300f742879b637988db1.jpg\";\n\n
 
 /***/ }),
 
+/***/ "./src/assets/map.png":
+/*!****************************!*\
+  !*** ./src/assets/map.png ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"b9c3814710a8be5a2a2e.png\";\n\n//# sourceURL=webpack://restaurant-app/./src/assets/map.png?");
+
+/***/ }),
+
+/***/ "./src/assets/menu-image-1.jpg":
+/*!*************************************!*\
+  !*** ./src/assets/menu-image-1.jpg ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"aab36e80abd024fe6493.jpg\";\n\n//# sourceURL=webpack://restaurant-app/./src/assets/menu-image-1.jpg?");
+
+/***/ }),
+
 /***/ "./src/assets/restaurant-image.jpg":
 /*!*****************************************!*\
   !*** ./src/assets/restaurant-image.jpg ***!
@@ -367,6 +447,16 @@ eval("module.exports = __webpack_require__.p + \"300f742879b637988db1.jpg\";\n\n
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"81339ae7cd54e57e306c.jpg\";\n\n//# sourceURL=webpack://restaurant-app/./src/assets/restaurant-image.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/tik-tok-icon.svg":
+/*!*************************************!*\
+  !*** ./src/assets/tik-tok-icon.svg ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"7cc3e9a3aa27385aafcc.svg\";\n\n//# sourceURL=webpack://restaurant-app/./src/assets/tik-tok-icon.svg?");
 
 /***/ })
 
