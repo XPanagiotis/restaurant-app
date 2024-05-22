@@ -1,7 +1,7 @@
 import { createDOMElement } from "../domHelperFunctions/createElement.js";
 import { createImage } from "../domHelperFunctions/createImage.js";
 import { paragraphContent } from "../paragraphContent.js";
-import { imageCarouselAnimation } from "../image-carousel.js"
+import { imageCarouselAnimation } from "../image-carousel.js";
 
 //images
 import homeImage from "../assets/home-image.jpg";
