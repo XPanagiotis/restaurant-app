@@ -1,27 +1,30 @@
 import { createDOMElement } from "../domHelperFunctions/createElement.js";
 import { createImage } from "../domHelperFunctions/createImage.js";
-import { paragraphContent } from "../paragraphContent.js";
 
-//Images
-import foodImage1 from "../assets/menu-image-1.jpg";
+export const renderMenuPage = function (mealCategories) {
+  const menuPage = document.getElementById("menu-page");
 
-export const renderMenuPage = function () {
-  const menuPage = document.getElementById('menu-page');
+  menuPage.appendChild(createDOMElement("h1", "", "Our Menu"));
 
-  menuPage.appendChild(createDOMElement('h1', '', 'Our Menu'));
+  //create DOM elements for meal categories and each category contains its own meals
+  mealCategories.forEach((category) => {
+    const mealCategory = createDOMElement("section", "meal-category-menu");
+    mealCategory.appendChild(createDOMElement("h2", "", category.category));
 
-  const foodCategoty = createDOMElement('section', 'food-category-menu');
-  foodCategoty.appendChild(createDOMElement('h2','', 'Food Category'));
+    category.meals.forEach((meal) => {
+      //create meal card that contain the image and the details for each meal
+      const mealCard = createDOMElement("div", "meal-card");
+      mealCard.appendChild(createImage(meal.img));
 
-  const foodCard = createDOMElement('div', 'food-card');
-  foodCard.appendChild(createImage(foodImage1));
+      const mealDetails = createDOMElement("div", "meal-details");
+      mealDetails.appendChild(createDOMElement("h3", "", meal.title));
+      mealDetails.appendChild(createDOMElement("p", "", meal.description));
+      mealDetails.appendChild(createDOMElement("p", "", meal.price));
 
-  const foodDetails = createDOMElement('div', 'food-details');
-  foodDetails.appendChild(createDOMElement('h3', '', 'Food Title'));
-  foodDetails.appendChild(createDOMElement('p', '', paragraphContent));
-  foodDetails.appendChild(createDOMElement('p', '', '$12.39'));
+      mealCard.appendChild(mealDetails);
+      mealCategory.appendChild(mealCard);
+    });
 
-  foodCard.appendChild(foodDetails);
-  foodCategoty.appendChild(foodCard);
-  menuPage.appendChild(foodCategoty);
-}
+    menuPage.appendChild(mealCategory);
+  });
+};

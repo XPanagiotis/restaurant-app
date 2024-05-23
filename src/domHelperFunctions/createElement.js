@@ -4,9 +4,9 @@
 
 export const createDOMElement = function (el, className, content, id) {
   const element = document.createElement(el);
-  element.setAttribute('class', className);
+  element.setAttribute("class", className);
   element.textContent = content;
   if (id) element.id = id;
-  
-  return element
-}
+
+  return element;
+};

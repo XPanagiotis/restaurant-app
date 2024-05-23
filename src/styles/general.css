@@ -1,4 +1,6 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
   font-family: sans-serif;
 }
@@ -12,8 +14,8 @@ body {
 :root {
   --off-white-color: #eeecea;
   --font-color: #574c46;
-  --orange-color: #F25A0D;
-  --yellow-color: #F5AE24;
+  --orange-color: #f25a0d;
+  --yellow-color: #f5ae24;
   --footer-color: #dfd8d4;
 }
 button {
@@ -22,7 +24,10 @@ button {
   font-size: 1rem;
   cursor: pointer;
 }
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   margin: 0;
   color: var(--font-color);
 }
@@ -35,4 +40,3 @@ li {
   margin: 0;
   padding: 0;
 }
-

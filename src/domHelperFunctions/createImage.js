@@ -2,8 +2,8 @@
 //We get the image src and then we append it as a child to its parent
 
 export const createImage = function (src) {
-  const image = document.createElement('img')
+  const image = document.createElement("img");
   image.src = src;
-  
-  return image
-}
+
+  return image;
+};

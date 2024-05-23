@@ -37,7 +37,7 @@
   border-radius: 15px;
 }
 .background-image {
-  background-image: url(../src/assets/kitchen-image.jpg);
+  background-image: url(../assets/kitchen-image.jpg);
   height: 75vh;
   margin-bottom: 15%;
   background-repeat: no-repeat;
@@ -61,7 +61,7 @@
   border-radius: 18px;
 }
 .image-slider img {
-  width: 100%;  
+  width: 100%;
   min-width: 100px;
   height: 100%;
   border-radius: 15px;
@@ -91,35 +91,39 @@
 .prev {
   left: -50px;
 }
-.next:hover, 
+.next:hover,
 .next:focus,
 .prev:hover,
-.prev:focus{
+.prev:focus {
   opacity: 0.7;
 }
 
 .fade {
   animation-name: fade;
-  animation-duration: .5s;
+  animation-duration: 0.5s;
 }
 
 @keyframes fade {
-  from {opacity: .7}
-  to {opacity: 1}
+  from {
+    opacity: 0.7;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-@media only screen and (max-width: 1024px){
-  .text-section { 
+@media only screen and (max-width: 1024px) {
+  .text-section {
     flex-direction: column;
     align-items: center;
     margin: 5% 0;
     max-width: 100%;
-   }
-   .text {
+  }
+  .text {
     width: 75%;
     margin-bottom: 2%;
-   }
-   .text {
+  }
+  .text {
     text-align: center;
-   }
+  }
 }
