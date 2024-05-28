@@ -22,7 +22,7 @@
   min-width: 100px;
   height: auto;
   border-radius: 15px;
-  box-shadow: 5px 5px 12px var(--font-color);
+  box-shadow: var(--shadow);
 }
 .contact-details-wrapper {
   display: flex;
@@ -32,7 +32,7 @@
   gap: 5%;
   padding: 8% 2%;
   text-align: center;
-  box-shadow: 5px 5px 12px var(--font-color);
+  box-shadow: var(--shadow);
   background-image: linear-gradient(to right bottom, #fff, #d4d1ce);
 }
 .contact-details-wrapper > h1 {

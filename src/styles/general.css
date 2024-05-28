@@ -17,12 +17,26 @@ body {
   --orange-color: #f25a0d;
   --yellow-color: #f5ae24;
   --footer-color: #dfd8d4;
+  --light-grey: #e6e6e6;
+  --ash: #f4f4f4;
+  --valid-outline: 2px solid rgba(70, 172, 255, 0.432);
+  --valid-shadow: rgba(70, 172, 255, 0.075) 0px 4px 24px 0px,
+    rgba(70, 172, 255, 0.137) 0px 0px 0px 1px;
+  --invalid-outline: 2px solid #ee675594;
+  --shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+main {
+  position: relative;
 }
 button {
   border: none;
   padding: 0;
   font-size: 1rem;
   cursor: pointer;
+  padding: 0.8rem;
+  font-weight: 700;
+  border-radius: 12px;
 }
 h1,
 h2,
@@ -31,12 +45,19 @@ p {
   margin: 0;
   color: var(--font-color);
 }
-ul {
+ul,
+fieldset,
+li {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-li {
-  margin: 0;
-  padding: 0;
+
+.orange-button {
+  background-color: var(--orange-color);
+  color: #fff;
+  align-self: center;
+}
+.orange-button:hover {
+  opacity: 0.9;
 }

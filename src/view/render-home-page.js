@@ -25,7 +25,6 @@ export const renderHomePage = function () {
 
   textDiv.appendChild(createDOMElement("h1", "", "Some Title"));
   textDiv.appendChild(createDOMElement("p", "", paragraphContent));
-  textDiv.appendChild(createDOMElement("button", "reservation", "Reservation"));
 
   textSection.appendChild(createImage(homeImage));
 

@@ -5,6 +5,7 @@ import "./styles/footer.css";
 import "./styles/home.css";
 import "./styles/menu.css";
 import "./styles/contact.css";
+import "./styles/reservation-form.css";
 
 //import JS functions
 import { pageController } from "./pageController.js";
@@ -14,6 +15,7 @@ import { renderContactPage } from "./view/render-contact-page.js";
 import { mealCategory } from "./createMealCategory.js";
 import { meal } from "./createMeal.js";
 import { paragraphContent } from "./domHelperFunctions/paragraphContent.js";
+import { showForm } from "./showForm.js";
 
 //images
 import foodImage1 from "./assets/menu-image-1.jpg";
@@ -22,11 +24,13 @@ import foodImage1 from "./assets/menu-image-1.jpg";
 const homeBtn = document.getElementById("home-button");
 const menuBtn = document.getElementById("menu-button");
 const contact = document.getElementById("contact-button");
+const reservationBtn = document.getElementById("reservation-button");
 
 //bind events
 homeBtn.addEventListener("click", pageController);
 menuBtn.addEventListener("click", pageController);
 contact.addEventListener("click", pageController);
+reservationBtn.addEventListener("click", showForm);
 
 //create manualy all the meal categories and the meals that we will render
 const mealCategories = [];
@@ -39,7 +43,7 @@ for (let i = 0; i <= 1; i++) {
       "Pizza margarita",
       paragraphContent,
       "$12.39",
-      foodImage1,
+      foodImage1
     );
     mealCategory1.meals.push(meal1);
   }

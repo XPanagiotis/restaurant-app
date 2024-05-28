@@ -17,13 +17,16 @@
   height: auto;
   border-radius: 15px;
 }
-nav {
+ul {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   gap: 1rem 3rem;
   justify-content: center;
   align-items: center;
-  width: 20%;
+}
+li:last-child {
+  position: relative;
 }
 .link {
   background-color: inherit;
@@ -55,7 +58,6 @@ nav {
   font-weight: 700;
   color: var(--orange-color);
   background-color: white;
-  border-radius: 12px;
 }
 .reservation:hover {
   opacity: 0.9;
