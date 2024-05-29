@@ -3,27 +3,41 @@
   top: 80px;
   right: 0;
   min-width: 620px;
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 12px;
   box-shadow: var(--shadow);
   background-color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0.97) translateX(-5px);
+  transition: 0.1s ease-in-out;
+  box-shadow: var(--shadow);
 }
 
 .form-wrapper.show {
-  display: flex;
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1) translateX(5px);
 }
 
-.form-wrapper::after {
-  content: "X";
+.close-button {
   position: absolute;
+  z-index: 10;
+  top: 2.2rem;
+  right: 2.2rem;
+  color: var(--font-color);
+  font-weight: 700;
+  font-size: 22px;
+  cursor: pointer;
+  background-color: inherit;
 }
 
 form {
   width: 100%;
   gap: 2rem;
-  padding: 40px;
+  padding: 2.2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,6 +61,7 @@ textarea {
   color: var(--font-color);
   border: none;
 }
+
 form input:focus,
 select:focus,
 textarea:focus,
@@ -55,8 +70,10 @@ select:hover {
   outline: var(--valid-outline);
   box-shadow: var(--valid-shadow);
 }
+
 form input:focus:invalid,
-select:focus:invalid {
+select:focus:invalid,
+.invalid:focus {
   outline: var(--invalid-outline);
 }
 
@@ -64,12 +81,18 @@ label,
 legend {
   color: var(--font-color);
 }
-label::after {
+
+label {
+  position: relative;
+}
+
+span::before {
   padding-left: 3px;
-  color: #ee6755;
+  color: var(--invalid-color);
   content: "*";
   font-size: 13px;
   line-height: 1px;
+  padding-right: 4px;
 }
 
 fieldset {
@@ -107,4 +130,8 @@ form > div:nth-child(3) > * {
 textarea {
   max-width: 540px;
   max-height: 9rem;
+}
+.error-message {
+  color: var(--invalid-color);
+  font-size: 0.8rem;
 }

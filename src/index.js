@@ -8,14 +8,14 @@ import "./styles/contact.css";
 import "./styles/reservation-form.css";
 
 //import JS functions
-import { pageController } from "./pageController.js";
+import { pageController } from "./controller/pageController.js";
 import { renderHomePage } from "./view/render-home-page.js";
 import { renderMenuPage } from "./view/render-menu-page.js";
 import { renderContactPage } from "./view/render-contact-page.js";
-import { mealCategory } from "./createMealCategory.js";
-import { meal } from "./createMeal.js";
 import { paragraphContent } from "./domHelperFunctions/paragraphContent.js";
-import { showForm } from "./showForm.js";
+import { showForm } from "./controller/showForm.js";
+import { meal } from "./meal-objects/createMeal.js";
+import { mealCategory } from "./meal-objects/createMealCategory.js";
 
 //images
 import foodImage1 from "./assets/menu-image-1.jpg";
@@ -23,13 +23,13 @@ import foodImage1 from "./assets/menu-image-1.jpg";
 //cashe DOM
 const homeBtn = document.getElementById("home-button");
 const menuBtn = document.getElementById("menu-button");
-const contact = document.getElementById("contact-button");
+const contactBtn = document.getElementById("contact-button");
 const reservationBtn = document.getElementById("reservation-button");
 
 //bind events
 homeBtn.addEventListener("click", pageController);
 menuBtn.addEventListener("click", pageController);
-contact.addEventListener("click", pageController);
+contactBtn.addEventListener("click", pageController);
 reservationBtn.addEventListener("click", showForm);
 
 //create manualy all the meal categories and the meals that we will render

@@ -22,12 +22,12 @@
         <li>
           <button class="reservation" id="reservation-button">Reservation</button>
           <div class="form-wrapper" id="reservation-form-wrapper">
-            <!--<button class="close-button">X</button>-->
-            <form action="#">
+            <button class="close-button" id="close-form-button">X</button>
+            <form action="#" id="reservation-form"  novalidate>
               <h1>Reservation Form</h1>
               <div class="input-wrapper">
-                <label for="name">Full Name</label>
-                <input type="text" name="full-name" id="full-name" minlength="5" maxlength="40" placeholder="Enter your full name" required>
+                <label for="name">Full Name<span class="error-message"></span></label>
+                <input type="text" name="full-name" id="full-name" minlength="5" maxlength="40" placeholder="Enter your full name" pattern="^[A-Za-z]{3,} [A-Za-z]{3,}$" data-isValid="false" required>
               </div>
 
               <div>
@@ -35,14 +35,15 @@
                   <legend>When is the reservation?</legend>
           
                   <div class="input-wrapper">
-                    <label for="date">Date</label>
-                    <input type="date" name="date" id="date" placeholder="Enter reservation date" required>
+                    <label for="date">Date<span class="error-message"></span></label>
+                    <input type="date" name="date" id="date" placeholder="Enter reservation date" data-isValid="true" required>
                   </div>
           
                   <div class="input-wrapper">
-                    <label for="time">Time</label>
-                    <select name="time" id="time" required>
-                      <option value="11:30">11:30</option>
+                    <label for="time">Time<span class="error-message"></span></label>
+                    <select name="time" id="time" data-isValid="false" required>
+                      <option value="" selected>Select the reservation time</option>
+                      <option value="8:30">11:30</option>
                       <option value="12:00">12:00</option>
                       <option value="12:30">12:30</option>
                       <option value="13:00">13:00</option>
@@ -75,13 +76,13 @@
                   <legend>Contact Info</legend>
           
                   <div class="input-wrapper">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter your email" required>
+                    <label for="email">Email<span class="error-message"></span></label>
+                    <input type="email" name="email" id="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" data-isValid="false" placeholder="Enter your email" required>
                   </div>
           
                   <div class="input-wrapper">
-                    <label for="phone-number">Phone</label>
-                    <input type="text" name="phone-number" id="phone-number" pattern="^\d{10}$" minlength="10" maxlength="10" placeholder="Enter your phone number" required>
+                    <label for="phone-number">Phone<span class="error-message"></span></label>
+                    <input type="text" name="phone-number" id="phone-number" pattern="^\d{10}$" minlength="10" maxlength="10" placeholder="Enter your phone number" data-isValid="false" required>
                   </div>
                 </fieldset>
               </div>
@@ -117,7 +118,7 @@
                 <textarea name="special-requests" id="special-requests"></textarea>
               </div>
         
-              <button id="" class="orange-button" type="submit">Make a reservation</button>
+              <button id="submit-form" class="orange-button" type="submit">Make a reservation</button>
         
             </form>
           </div>
