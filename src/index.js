@@ -19,6 +19,11 @@ import { mealCategory } from "./meal-objects/createMealCategory.js";
 
 //images
 import foodImage1 from "./assets/menu-image-1.jpg";
+import restaurantLogo from "./assets/restaurant-logo.png";
+import instagramIcon from "./assets/instagram-icon.svg";
+import tikTokIcon from "./assets/tik-tok-icon.svg";
+import facebookIcon from "./assets/facebook-icon.svg";
+import googlemapsIcon from "./assets/google-maps-icon.svg";
 
 //cashe DOM
 const homeBtn = document.getElementById("home-button");
